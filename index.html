@@ -1,69 +1,122 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="ru">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Firenox — контакты</title>
-  <style>
-    body {
-      font-family: Arial, sans-serif;
-      display: flex;
-      flex-direction: column;
-      align-items: center;
-      justify-content: center;
-      min-height: 100vh;
-      background: #f5f5f5;
-      margin: 0;
-      padding: 20px;
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Firenox — огнеупорные смеси для печей и каминов</title>
+  <meta name="description" content="Firenox — надёжные огнеупорные смеси для кладки и ремонта печей и каминов. Жаростойкие решения для вашего тепла и уюта. WhatsApp, телефон и e‑mail для связи.">
+  <meta property="og:title" content="Firenox — огнеупорные смеси">
+  <meta property="og:description" content="Надёжные огнеупорные смеси для кладки и ремонта печей и каминов.">
+  <meta property="og:type" content="website">
+  <meta property="og:image" content="assets/logo.png">
+  <meta name="theme-color" content="#d84315">
+  <link rel="icon" href="favicon.ico">
+  <link rel="preload" as="image" href="assets/logo.png">
+  <link rel="stylesheet" href="styles.css">
+  <script defer src="script.js"></script>
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "Organization",
+    "name": "Firenox",
+    "url": "https://ВАШ_НИК.github.io/firenox-site/",
+    "logo": "assets/logo.png",
+    "description": "Надежные огнеупорные смеси для кладки и ремонта печей и каминов, жаростойкие решения для вашего тепла и уюта.",
+    "contactPoint": {
+      "@type": "ContactPoint",
+      "contactType": "customer support",
+      "telephone": "+7-991-390-42-62",
+      "email": "Firenox53@yandex.ru"
     }
-    .card {
-      background: #fff;
-      border-radius: 16px;
-      box-shadow: 0 4px 12px rgba(0,0,0,0.1);
-      padding: 30px;
-      text-align: center;
-      max-width: 400px;
-      width: 100%;
-    }
-    h1 {
-      margin: 10px 0 0;
-      font-size: 24px;
-      color: #d84315;
-    }
-    p {
-      margin: 10px 0 20px;
-      font-size: 16px;
-      color: #333;
-    }
-    a.button {
-      display: block;
-      margin: 10px 0;
-      padding: 12px;
-      border-radius: 8px;
-      text-decoration: none;
-      font-weight: bold;
-      color: #fff;
-      background: #d84315;
-      transition: background 0.3s;
-    }
-    a.button:hover {
-      background: #b71c1c;
-    }
-    img.logo {
-      max-width: 120px;
-      margin-bottom: 15px;
-    }
-  </style>
+  }
+  </script>
 </head>
 <body>
-  <div class="card">
-    <img src="logo.png" alt="Firenox" class="logo">
+  <header class="container hero">
+    <img src="assets/logo.png" alt="Firenox" class="logo">
     <h1>Firenox</h1>
-    <p>Надежные огнеупорные смеси для кладки и ремонта печей и каминов, жаростойкие решения для вашего тепла и уюта.</p>
+    <p class="tagline">Надёжные огнеупорные смеси для кладки и ремонта печей и каминов — жаростойкие решения для вашего тепла и уюта.</p>
+    <div class="cta">
+      <a class="btn primary" href="https://wa.me/79913904262" target="_blank" rel="noopener">Написать в WhatsApp</a>
+      <a class="btn" href="tel:+79913904262">Позвонить</a>
+      <a class="btn" href="mailto:Firenox53@yandex.ru">E‑mail</a>
+    </div>
+    <div class="mini-note">Сохраните QR‑код, чтобы быстро делиться ссылкой:</div>
+    <img src="assets/qr-universal.png" class="qr" alt="QR на сайт Firenox">
+  </header>
 
-    <a class="button" href="https://wa.me/79913904262" target="_blank">Связаться в WhatsApp</a>
-    <a class="button" href="tel:+79913904262">Позвонить</a>
-    <a class="button" href="mailto:Firenox53@yandex.ru">Написать на e-mail</a>
-  </div>
+  <main>
+    <section class="container features">
+      <h2>Почему Firenox</h2>
+      <ul class="grid-3">
+        <li><h3>Жаростойкость</h3><p>Составы выдерживают экстремальные температуры, подходят для печей, каминов, BBQ.</p></li>
+        <li><h3>Надёжная адгезия</h3><p>Отличное сцепление с шамотным кирпичом и огнеупорными блоками.</p></li>
+        <li><h3>Удобство в работе</h3><p>Пластичность, ровная кладка, чистая линия шва.</p></li>
+      </ul>
+    </section>
+
+    <section class="container products">
+      <h2>Линейка продуктов</h2>
+      <div class="cards">
+        <article class="card">
+          <h3>Firenox Mix 110</h3>
+          <p class="muted">Кладочная смесь • до 1100 °C</p>
+          <ul>
+            <li>Для кладки печей и каминов</li>
+            <li>Оптимальная пластичность</li>
+            <li>Расход: ~1.7 кг/м² при шве 3 мм*</li>
+          </ul>
+        </article>
+        <article class="card">
+          <h3>Firenox Repair 130</h3>
+          <p class="muted">Ремонтная смесь • до 1300 °C</p>
+          <ul>
+            <li>Для восстановления трещин и швов</li>
+            <li>Быстрый набор прочности</li>
+            <li>Влагостойкая после твердения</li>
+          </ul>
+        </article>
+        <article class="card">
+          <h3>Firenox Cast 160</h3>
+          <p class="muted">Жаропрочный состав • до 1600 °C</p>
+          <ul>
+            <li>Для литья и футеровки</li>
+            <li>Высокая абразивостойкость</li>
+            <li>Термостойкость для топок</li>
+          </ul>
+        </article>
+      </div>
+      <p class="footnote">* Значения примерные и зависят от основания и условий работы.</p>
+    </section>
+
+    <section class="container howto">
+      <h2>Области применения</h2>
+      <div class="grid-2">
+        <div>
+          <h3>Кладка и монтаж</h3>
+          <p>Шамотный кирпич, модульные системы каминов, дымоходные элементы.</p>
+        </div>
+        <div>
+          <h3>Ремонт и восстановление</h3>
+          <p>Заделка трещин, восстановление швов, укрепление футеровки топок.</p>
+        </div>
+      </div>
+    </section>
+
+    <section class="container contact">
+      <h2>Связаться с нами</h2>
+      <p>Мы на связи ежедневно: WhatsApp, звонок или e‑mail.</p>
+      <div class="cta">
+        <a class="btn primary" href="https://wa.me/79913904262" target="_blank" rel="noopener">WhatsApp</a>
+        <a class="btn" href="tel:+79913904262">+7 991 390‑42‑62</a>
+        <a class="btn" href="mailto:Firenox53@yandex.ru">Firenox53@yandex.ru</a>
+      </div>
+    </section>
+  </main>
+
+  <footer class="container footer">
+    <div>© <span id="year"></span> Firenox. Все права защищены.</div>
+    <div class="muted">Сделано с заботой о вашем тепле.</div>
+  </footer>
 </body>
 </html>
